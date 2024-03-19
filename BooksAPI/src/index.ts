@@ -2,7 +2,7 @@
 
 import express from 'express';
 import connectDB from './models/db';
-import productRouter from './routers/ProductRouter';
+import productRouter from './routers/BookRouter';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
